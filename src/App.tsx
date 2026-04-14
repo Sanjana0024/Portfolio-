@@ -11,6 +11,7 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+import AIProfile from "./components/AIProfile";
 import { useEffect } from "react";
 import { config } from "./constants/config";
 
@@ -27,6 +28,7 @@ const App = () => {
         <div className="bg-hero-pattern bg-cover bg-center bg-no-repeat">
           <Navbar />
           <Hero />
+          <AIProfile />
         </div>
         <About />
         <Experience />

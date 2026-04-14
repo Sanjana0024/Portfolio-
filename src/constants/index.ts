@@ -51,11 +51,11 @@ export const navLinks: TNavLink[] = [
 
 const services: TService[] = [
   {
-    title: "Web Developer",
+    title: "AI Engineer",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "FastAPI Developer",
     icon: mobile,
   },
   {
@@ -63,7 +63,7 @@ const services: TService[] = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Full Stack Developer",
     icon: creator,
   },
 ];
@@ -125,45 +125,7 @@ const technologies: TTechnology[] = [
 
 const experiences: TExperience[] = [
   {
-    title: "React.js Developer",
-    companyName: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    companyName: "Tesla",
-    icon: tesla,
-    iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Web Developer",
-    companyName: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
+
     title: "Full stack Developer",
     companyName: "Meta",
     icon: meta,
@@ -174,79 +136,121 @@ const experiences: TExperience[] = [
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+    ],  
+},
+
+    {
+  title: "FastAPI Backend Developer",
+  companyName: "Self Projects & Learning",
+  icon: backend,
+  iconBg: "#E6DEDD",
+  date: "2024 - Present",
+  points: [
+    "Building scalable backend systems using FastAPI for AI-driven applications.",
+    "Designing and integrating REST APIs to handle user queries and external data sources.",
+    "Implementing modular architecture with structured outputs for efficient data processing.",
+    "Testing and optimizing API performance for reliability and scalability.",
+  ],
+},
+  
+  {
+  title: "Backend Developer",
+  companyName: "Self Projects & Learning",
+  icon: backend,
+  iconBg: "#383E56",
+  date: "2024 - Present",
+  points: [
+    "Developing backend services for web applications using FastAPI and Node.js.",
+    "Designing RESTful APIs for handling data processing and client-server communication.",
+    "Working with databases like MongoDB to store, retrieve, and manage application data.",
+    "Ensuring scalability, performance optimization, and clean code structure in backend systems.",
+  ],
+},
+  
+  {
+    title: "AI Engineer (Intern)",
+  companyName: "Self Projects & Learning",
+  icon: creator,
+  iconBg: "#383E56",
+  date: "2024 - Present",
+  points: [
+    "Developing AI-based applications using APIs and modern backend frameworks like FastAPI.",
+    "Designing modular systems that process user queries, fetch external data, and rank results using structured outputs.",
+    "Working on end-to-end AI system development including data processing, model integration, and deployment.",
+    "Continuously learning Machine Learning concepts and applying them in real-world projects.",
+  ],
   },
 ];
 
 const testimonials: TTestimonial[] = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
+    "Sanjana has a strong interest in AI and consistently builds projects that demonstrate her problem-solving skills and understanding of backend systems.",
+    name: "Faculty Mentor",
+  designation: "Assistant Professor",
+  company: "NIIT",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+  {testimonial:
+    "Sanjana demonstrated strong dedication and technical skills during her internship, contributing effectively to backend development and API integration tasks.",
+  name: "Team Lead",
+  designation: "Backend Team",
+  company: "Cloud Elevate Technology",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+    
+  testimonial:
+    "Sanjana made valuable contributions during her internship at SyntexHub, showing strong skills in backend development and a keen ability to learn and adapt quickly.",
+  name: "Project Mentor",
+  designation: "Senior Developer",
+  company: "SyntexHub",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects: TProject[] = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
+    name: "AI News Intelligence System",
+  description:
+    "An AI-powered application that processes user queries, fetches news from external APIs, and ranks results using a modular architecture with structured outputs for better relevance.",
+  tags: [
+    {
+      name: "FastAPI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "AI",
+      color: "green-text-gradient",
+    },
+    {
+      name: "API",
+      color: "pink-text-gradient",
+    },
+  ],
     image: carrent,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Sanjana0024",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
-    tags: [
-      {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
-        color: "green-text-gradient",
-      },
-      {
-        name: "scss",
-        color: "pink-text-gradient",
-      },
-    ],
+     name: "AI Chatbot Assistant",
+  description:
+    "Developed an AI-powered chatbot that can understand user queries and generate intelligent responses using natural language processing and API integration, providing a conversational interface for users.",
+  tags: [
+    {
+      name: "AI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "NLP",
+      color: "green-text-gradient",
+    },
+    {
+      name: "FastAPI",
+      color: "pink-text-gradient",
+    },
+  ],
     image: jobit,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Sanjana0024",
   },
   {
     name: "Trip Guide",
@@ -267,8 +271,71 @@ const projects: TProject[] = [
       },
     ],
     image: tripguide,
-    sourceCodeLink: "https://github.com/",
+    sourceCodeLink: "https://github.com/Sanjana0024",
   },
+  {
+  name: "AI Multi-Agent Orchestrator",
+  description:
+    "Developed a multi-agent AI system that orchestrates multiple agents to process user queries, fetch data from external APIs, and generate structured, ranked responses using a modular architecture.",
+  tags: [
+    {
+      name: "AI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "LLM",
+      color: "green-text-gradient",
+    },
+    {
+      name: "FastAPI",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: jobit,
+  sourceCodeLink: "https://github.com/Sanjana0024",
+},
+{
+  name: "YouTube AI Transcriptor",
+  description:
+    "Developed an AI-powered system that extracts and transcribes audio from YouTube videos into text using speech-to-text models, enabling users to quickly access and analyze video content.",
+  tags: [
+    {
+      name: "AI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "NLP",
+      color: "green-text-gradient",
+    },
+    {
+      name: "FastAPI",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: jobit,
+  sourceCodeLink: "https://github.com/Sanjana0024",
+},
+{
+  name: "Virasat AI",
+  description:
+    "Developed an AI-powered application focused on preserving and exploring Indian cultural heritage, allowing users to discover traditions, historical information, and regional insights through an intelligent interface.",
+  tags: [
+    {
+      name: "AI",
+      color: "blue-text-gradient",
+    },
+    {
+      name: "React",
+      color: "green-text-gradient",
+    },
+    {
+      name: "API",
+      color: "pink-text-gradient",
+    },
+  ],
+  image: jobit,
+  sourceCodeLink: "https://github.com/Sanjana0024",
+},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, testimonials, projects };  
