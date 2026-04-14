@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { BrowserRouter } from "react-router-dom";
 
 import {
@@ -12,8 +13,7 @@ import {
   StarsCanvas,
 } from "./components";
 import AIProfile from "./components/AIProfile";
-import { useEffect } from "react";
-import { config } from "../../constants/config";
+import { config } from "./constants/config";
 
 const App = () => {
   useEffect(() => {
