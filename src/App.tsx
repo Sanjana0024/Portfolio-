@@ -13,7 +13,7 @@ import {
 } from "./components";
 import AIProfile from "./components/AIProfile";
 import { useEffect } from "react";
-import { config } from "./constants/config";
+import { config } from "../../constants/config";
 
 const App = () => {
   useEffect(() => {
